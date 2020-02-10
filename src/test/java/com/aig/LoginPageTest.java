@@ -13,4 +13,15 @@ class LoginPageTest extends BaseTest {
         loginPage.visit();
         assertTrue(loginPage.isLoaded());
     }
+    @Test
+    public void shouldLogin() {
+        LoginPage loginPage = new LoginPage(driver);
+        loginPage.visit();
+        assertTrue(loginPage.isLoaded());
+
+        loginPage.login("","");
+        //Failure messages on assertions are important in Java
+        assertTrue(new InventoryPage(driver).isLoaded(),
+                "Inventory page should be visible since we logged in");
+    }
 }
