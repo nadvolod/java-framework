@@ -1,6 +1,7 @@
 package com.aig;
 
 import com.aig.page.LoginPage;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
@@ -19,9 +20,9 @@ class LoginPageTest extends BaseTest {
         loginPage.visit();
         assertTrue(loginPage.isLoaded());
 
-        loginPage.login("","");
+        loginPage.login("standard_user", "secret_sauce");
         //Failure messages on assertions are important in Java
-        assertTrue(new InventoryPage(driver).isLoaded(),
+        Assertions.assertTrue(new InventoryPage(driver).isLoaded(),
                 "Inventory page should be visible since we logged in");
     }
 }
