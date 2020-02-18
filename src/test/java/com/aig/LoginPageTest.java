@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 //Make sure that all of your test classes classes end in *Test
-class LoginPageTest extends BaseTest {
+class LoginPageTest extends TestsBase {
     @Test
     public void shouldLoad() {
         LoginPage loginPage = new LoginPage(driver);
