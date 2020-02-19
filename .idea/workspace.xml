@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8973cb01-7540-48c7-b64d-73cccb4acf81" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/java-framework.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/aig/RunCucumberTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/aig/StepDefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/aig/login.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/aig/testing.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/aig/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/aig/TestsBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/aig/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/aig/LoginPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/aig/RunCucumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/aig/RunCucumberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/aig/StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/aig/StepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/aig/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/aig/login.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,9 +55,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/com.aig" />
       <recent name="$PROJECT_DIR$/src/test/java/com/aig" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="aig" />
       <recent name="com.aig" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
@@ -73,7 +72,7 @@
       <module name="java-framework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.aig.*" />
+          <option name="PATTERN" value="aig.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,7 +87,7 @@
       <module name="java-framework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.aig.*" />
+          <option name="PATTERN" value="aig.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,7 +103,7 @@
       <module name="java-framework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.aig.*" />
+          <option name="PATTERN" value="aig.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,13 +145,18 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="554" y="335" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582067758357">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="554" y="335" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1582067758357" />
     <state x="1518" y="-805" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1581353297933">
       <screen x="870" y="-1080" width="1920" height="1080" />
     </state>
     <state x="1518" y="-805" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/870.-1080.1920.1080/-1055.-1080.1920.1080/0.0.1680.1050@870.-1080.1920.1080" timestamp="1581353297933" />
-    <state x="-307" y="-674" width="467" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1581359072627">
-      <screen x="-1055" y="-1080" width="1920" height="1080" />
+    <state x="655" y="395" width="467" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1582065032183">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
+    <state x="655" y="395" width="467" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1680.1050@0.0.1680.1050" timestamp="1582065032183" />
     <state x="-307" y="-674" width="467" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/870.-1080.1920.1080/-1055.-1080.1920.1080/0.0.1680.1050@-1055.-1080.1920.1080" timestamp="1581359072627" />
     <state x="1618" y="-674" width="423" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/870.-1080.1920.1080/-1055.-1080.1920.1080/0.0.1680.1050@870.-1080.1920.1080" timestamp="1581093590817" />
     <state x="488" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1582057638245">

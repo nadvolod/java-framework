@@ -1,4 +1,4 @@
-package com.aig;
+package aig;
 
 public class StepDefinitions{
 }
