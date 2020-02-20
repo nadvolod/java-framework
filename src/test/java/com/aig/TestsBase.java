@@ -1,6 +1,6 @@
 package com.aig;
 
-import org.junit.jupiter.api.BeforeEach;
+import org.junit.Before;
 import org.openqa.selenium.MutableCapabilities;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.CapabilityType;
@@ -9,10 +9,10 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-public class BaseTest {
+public class TestsBase {
     public RemoteWebDriver driver;
 
-    @BeforeEach
+    @Before
     public void setup() {
         String sauceUsername = System.getenv("SAUCE_USERNAME");
         String sauceAccessKey = System.getenv("SAUCE_ACCESS_KEY");
