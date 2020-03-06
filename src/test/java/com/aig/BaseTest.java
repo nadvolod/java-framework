@@ -1,6 +1,6 @@
 package com.aig;
 
-import org.junit.jupiter.api.BeforeEach;
+import org.junit.Before;
 import org.openqa.selenium.MutableCapabilities;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.CapabilityType;
@@ -12,7 +12,7 @@ import java.net.URL;
 public class BaseTest {
     public RemoteWebDriver driver;
 
-    @BeforeEach
+    @Before
     public void setup() {
         String sauceUsername = System.getenv("SAUCE_USERNAME");
         String sauceAccessKey = System.getenv("SAUCE_ACCESS_KEY");
