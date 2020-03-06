@@ -1,5 +1,6 @@
 package com.aig;
 
+import com.aig.page.InventoryPage;
 import com.aig.page.LoginPage;
 import org.junit.jupiter.api.Test;
 
