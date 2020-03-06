@@ -24,3 +24,7 @@ hs_err_pid*
 
 #folders
 **/target/**
+
+# Intellij IDEA
+*.iml
+.idea/
